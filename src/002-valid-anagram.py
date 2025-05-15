@@ -1,4 +1,4 @@
-from collections import Counter
+from leetcode_template import *
 
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
