@@ -19,4 +19,20 @@ class Solution:
                 return False
         
         return True
+
+        # in an updated solution we can also use defaultdicts since
+        # these defaultdict(int) storages make it so we don't
+        # need to worry about the default value 0 and improve logic
+
+        # similarly using the .count string method with a set makes this
+        # extremely fast:
+
+        # if len(s) != len(t):
+        #     return False
+
+        # for c in set(s):
+        #     if s.count(c) != t.count(c):
+        #         return False
+        
+        # return True
             
